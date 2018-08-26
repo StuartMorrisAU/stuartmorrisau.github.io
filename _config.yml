@@ -19,21 +19,22 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 Stuart Morris — Portfolio
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Best Jekyll Theme by a Mile".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+  Automation Technician & Electrician. Co-founder of Silvobeat. Hiker.
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Best Jekyll Theme by a Mile".
-  Open `_config.yml` to edit this text.
+  Automation Technician
+  Electrician
+  Co-founder of Silvobeat
+  Hiker
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Stuart Morris, Automation, Building Automation, Delta Controls, Tridium, Niagara, Electrician, Hiker, Blogger, Silvobeat, Dual Ascent, Melbourne, Australia]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -42,15 +43,22 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Stuart Morris
+  email:               stuart@stuartmorris.me
   # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  facebook:            StuartMorrisAU
+  instagram:           StuartMorris_AU
+  spotify:             StuartMorrisAU
+  github:              StuartMorrisAU
+  basecamp:            StuartMorrisAU
+  wordpress:           StuartMorrisAU
+  twitter:             StuartMorrisAU
+  google-plus:         StuartMorrisAU
+
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
-  © 2018. All rights reserved.
-  Open `_config.yml` to edit this text.
+  Copyright © 2018.
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
