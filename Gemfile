@@ -17,16 +17,20 @@ gem "jekyll-theme-hydejack-pro", git: 'git@hydejack:qwtel/hydejack-pro.git', bra
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-default-layout"
-  gem "jekyll-feed"
-  gem "jekyll-optional-front-matter"
+  # Default GitHub Pages plugins that can't be disabled
   gem "jekyll-paginate"
-  gem "jekyll-readme-index"
-  gem "jekyll-redirect-from"
   gem "jekyll-relative-links"
+  gem "jekyll-optional-front-matter"
+  gem "jekyll-readme-index"
+  gem "jekyll-default-layout"
+  gem "jekyll-titles-from-headings"
+  # Optional GitHub Pages plugins that can be enabled:
+  gem "jekyll-feed"
+  gem "jekyll-redirect-from"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
-  gem "jekyll-titles-from-headings"
+  # Other plugins
+  gem "jekyll-emoji"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

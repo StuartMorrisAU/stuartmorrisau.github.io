@@ -29,13 +29,13 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  Automation Technician
+  Automation Technician<br />
 
-  Electrician
+  Electrician<br />
 
-  Co-founder of Silvobeat
+  Co-Founder of Silvobeat<br />
 
-  Hiker
+  Hiker<br />
 
   Vegan
 
@@ -147,10 +147,10 @@ defaults:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related, random]
+  post_addons:         [random] # [about, newsletter, related, random]
 
   # Configure the order of complementary content on project pages
-  project_addons:      [about, newsletter, other]
+  project_addons:      [other] # [about, newsletter, other]
 
   # If you do not use Google Fonts, set to `true`.
   no_google_fonts:     false
@@ -196,12 +196,12 @@ hydejack:
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
     # Set to `true` to always use the dark theme.
-    always:            false
+    always:            true
 
     # Set to `true` to use the dark theme based on visitors' local time.
-    dynamic:           true
-    sunrise:           6
-    sunset:            18
+    dynamic:           false
+    # sunrise:           6
+    # sunset:            18
 
     # Set to `true` to allow visitors to switch between light and dark mode.
     icon:              true
@@ -277,7 +277,7 @@ plugins:
  - jekyll-sitemap
 ## Other plugins
 # - jekyll-avatar
- - jemoji
+ - jekyll-emoji
 # - jekyll-mentions
 # - jekyll-include-cache
 
@@ -301,8 +301,8 @@ theme: jekyll-theme-hydejack-pro
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-# twitter:
-#   username:            <shortname>
+twitter:
+  username:            StuartMorrisAU
 
 # Used for Facebook open graph
 # facebook:
