@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore docs files
 _gh_pages
 _site*
@@ -46,3 +47,9 @@ vendor/bundle
 _zip
 
 #<removed>
+=======
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+>>>>>>> f40cef79295d835c5cffe90da80031d5dba9c14b
