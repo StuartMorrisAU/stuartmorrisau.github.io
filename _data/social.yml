@@ -30,7 +30,7 @@ whatsapp:
 spotify:
   name: Spotify
   icon: icon-spotify
-  prepend: "https://play.spotify.com/"
+  prepend: "https://open.spotify.com/user/"
 telegram:
   name: Telegram
   icon: icon-telegram
@@ -58,7 +58,7 @@ rss:
 youtube:
   name: YouTube
   icon: icon-youtube
-  prepend: "https://www.youtube.com/channel/"
+  prepend: "https://www.youtube.com/"
 twitch:
   name: Twitch
   icon: icon-twitch
@@ -94,7 +94,7 @@ deviantart:
 steam:
   name: Steam
   icon: icon-steam
-  pretend: "http://steamcommunity.com/profiles/"
+  pretend: "https://steamcommunity.com/id/"
 dropbox:
   name: Dropbox
   icon: icon-dropbox
@@ -202,3 +202,23 @@ paypal:
 download:
   name: Download
   icon: icon-box-add
+aboutme:
+  name: AboutMe
+  icon: aboutme
+  prepend: https://about.me/
+goodreads:
+  name: Goodreads
+  icon: goodreads
+  prepend: https://www.goodreads.com/user/show/
+gravatar:
+  name: Gravatar
+  icon: gravatar
+  prepend: https://en.gravatar.com/
+medium:
+  name: Medium
+  icon: medium
+  prepend: https://medium.com/@
+product-hunt:
+  name: Product Hunt
+  icon: product-hunt
+  prepend: https://www.producthunt.com/@

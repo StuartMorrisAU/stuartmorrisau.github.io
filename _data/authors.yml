@@ -45,20 +45,23 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         StuartMorrisAU
-    github:          StuartMorrisAU
+    linkedin:        stuartmorrisau
     email:           stuart@stuartmorris.me
-    # rss:             https://<url>/feed.xml
+    github:          StuartMorrisAU
+    instagram:       StuartMorris_AU
     facebook:        StuartMorrisAU
+    twitter:         StuartMorrisAU
+    pinterest:       stuartmorrisau
+    trello:          stuartmorrisau
+    spotify:         stuartmorrisau
+    # rss:             https://<url>/feed.xml
     # google:          <number>
     # vk:              <username>
     youtube:         +StuartMorris_AU
     vimeo:           stuartmorrisau
     # vine:            <username>
-    spotify:         stuartmorrisau
     soundcloud:      stuartmorrisau
     # lastfm:          <username>
-    instagram:       StuartMorris_AU
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -69,20 +72,28 @@ author1:
     steam:           stuartmorrisau
     # reddit:          <username>
     # tumblr:          <username>
-    pinterest:       stuartmorrisau
     # foursquare:      <number>
     # yelp:            <string>
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
-    trello:          stuartmorrisau
-    linkedin:        stuartmorrisau
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
     # download:        <url>
+
+    # Other social media
+
+    google-plus:     +StuartMorris_AU
+    wordpress:       stuartmorrisau
+    aboutme:         stuartmorrisau
+    goodreads:       43764716-stuart
+    gravatar:        stuartmorrisau
+    medium:          StuartMorrisAU
+    product-hunt:    stuartmorrisau
+
 
 # Another author (optional)
 # author2:

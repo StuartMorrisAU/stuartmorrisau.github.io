@@ -30,9 +30,13 @@ description:           >
 # A shorter description for the sidebar.
 tagline:               |
   Automation Technician
+
   Electrician
+
   Co-founder of Silvobeat
+
   Hiker
+
   Vegan
 
 # A list of keywords for your blog
@@ -252,35 +256,28 @@ include:
 # ========================================================================================
 
 plugins:
-  - jekyll-default-layout # <
-  - jekyll-feed # <
-  - jekyll-optional-front-matter # <
-  - jekyll-paginate # <
-  - jekyll-readme-index # <
-  - jekyll-redirect-from # <
-  - jekyll-relative-links # <
-  - jekyll-seo-tag # <
-  - jekyll-sitemap # <
-  - jekyll-titles-from-headings # <
-
 # Default GitHub Pages plugins that can't be disabled:
+## Hydejack plugins
+ - jekyll-paginate
+ - jekyll-relative-links
+ - jekyll-optional-front-matter
+ - jekyll-readme-index
+ - jekyll-default-layout
+ - jekyll-titles-from-headings
+## Other plugins
 # - jekyll-coffeescript
 # - jekyll-gist
 # - jekyll-github-metadata
-# > jekyll-paginate
-# > jekyll-relative-links
-# > jekyll-optional-front-matter
-# > jekyll-readme-index
-# > jekyll-default-layout
-# > jekyll-titles-from-headings
 
 # Optional GitHub Pages plugins that can be enabled:
-# > jekyll-feed
-# > jekyll-redirect-from
-# > jekyll-seo-tag
-# > jekyll-sitemap
+## Hydejack plugins
+ - jekyll-feed
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
+## Other plugins
 # - jekyll-avatar
-# - jemoji
+ - jemoji
 # - jekyll-mentions
 # - jekyll-include-cache
 
