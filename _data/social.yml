@@ -219,6 +219,10 @@ medium:
   name: Medium
   icon: icon-medium
   prepend: "https://medium.com/@"
+pocket:
+  name: Pocket
+  icon: icon-pocket
+  prepend: "https://getpocket.com/@"
 product-hunt:
   name: Product Hunt
   icon: icon-product-hunt
