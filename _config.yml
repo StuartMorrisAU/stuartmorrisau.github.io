@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://domain.tld
+url:                   https://stuartmorrisau.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -247,20 +247,42 @@ include:
 # ========================================================================================
 
 plugins:
-  - jekyll-default-layout
-  - jekyll-feed
-  - jekyll-optional-front-matter
-  - jekyll-paginate
-  - jekyll-readme-index
-  - jekyll-redirect-from
-  - jekyll-relative-links
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-titles-from-headings
+  - jekyll-default-layout # <
+  - jekyll-feed # <
+  - jekyll-optional-front-matter # <
+  - jekyll-paginate # <
+  - jekyll-readme-index # <
+  - jekyll-redirect-from # <
+  - jekyll-relative-links # <
+  - jekyll-seo-tag # <
+  - jekyll-sitemap # <
+  - jekyll-titles-from-headings # <
+
+# Default GitHub Pages plugins that can't be disabled:
+# - jekyll-coffeescript
+# - jekyll-gist
+# - jekyll-github-metadata
+# > jekyll-paginate
+# > jekyll-relative-links
+# > jekyll-optional-front-matter
+# > jekyll-readme-index
+# > jekyll-default-layout
+# > jekyll-titles-from-headings
+
+# Optional GitHub Pages plugins that can be enabled:
+# > jekyll-feed
+# > jekyll-redirect-from
+# > jekyll-seo-tag
+# > jekyll-sitemap
+# - jekyll-avatar
+# - jemoji
+# - jekyll-mentions
+# - jekyll-include-cache
 
 # Theme
 # ---------------------------------------------------------------------------------------
 
+theme: jekyll-theme-hydejack-pro
 # theme: jekyll-theme-hydejack
 # remote_theme: qwtel/hydejack@gem
 

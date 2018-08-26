@@ -1,3 +1,11 @@
+GIT
+  remote: git@hydejack:qwtel/hydejack-pro.git
+  revision: d9dcfc73a6bdad8de278751069fdfc80e386d23e
+  branch: gem-pro
+  specs:
+    jekyll-theme-hydejack-pro (7.5.2)
+      jekyll (~> 3.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -86,6 +94,7 @@ DEPENDENCIES
   jekyll-relative-links
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-theme-hydejack-pro!
   jekyll-titles-from-headings
   tzinfo-data
 
