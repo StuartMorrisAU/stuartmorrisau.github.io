@@ -2,69 +2,81 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Stuart Morris
+  email:             stuart@stuartmorris.me
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Stuart is an [A-Class licensed electrician][esv] and automation controls
+    technician from Melbourne, Australia. He has versatile experience in the
+    installation, engineering, commissioning, and service of
+    [building automation systems][bms], building efficiency intelligence
+    systems, and mechanical-electrical infrastructure.
 
-    Open `_data/authors.yml` to edit this text.
+    Stuart and his wife Silvia cofound [Silvobeat][silvobeat], a collection of
+    delicious, plant-based recipes focussed on fresh ingredients and mouth-
+    watering flavours.
 
-    [Download Free][kit]
-    -- or --
-    [Buy PRO][buy]
+    In his down time, Stuart can be found [traversing a goat track][hike],
+    discovering a new foodie hangout, delving into some new tech, or
+    [pouring over a good book][goodreads].
 
-    [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v8.0.0-beta.7.zip
-    [buy]: https://app.simplegoods.co/i/NATYVLYT
+    [esv]:        http://www.esv.vic.gov.au/Electricity-Professionals/Licensing-and-registration/Electricians-Licence
+    [bms]:        https://en.wikipedia.org/wiki/Building_management_system
+    [silvobeat]:  https://www.silvobeat.com/
+    [hike]:       http://www.bushwalkingvictoria.org.au/walks-directory?lang=en
+    [goodreads]:  https://www.goodreads.com/StuartMorrisAU
 
   # This photo will be used in the about section
   picture:
-    path:            https://placehold.it/128x128
+    path:            /assets/img/profile.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+    # srcset:
+    #   1x:            https://placehold.it/128x128
+    #   2x:            https://placehold.it/256x256
+
+  # accent_color:      '#268bd2'
+  # accent_image:
+  #   background:      '#202020'
+  #   overlay:         false
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    twitter:         StuartMorrisAU
+    github:          StuartMorrisAU
+    email:           stuart@stuartmorris.me
     # rss:             https://<url>/feed.xml
-    # facebook:        <username>
+    facebook:        StuartMorrisAU
     # google:          <number>
     # vk:              <username>
-    # youtube:         <string_string_string>
-    # vimeo:           <username>
+    youtube:         +StuartMorris_AU
+    vimeo:           stuartmorrisau
     # vine:            <username>
-    # spotify:         <user>/<number>
-    # soundcloud:      <username>
+    spotify:         stuartmorrisau
+    soundcloud:      stuartmorrisau
     # lastfm:          <username>
-    # instagram:       <username>
+    instagram:       StuartMorris_AU
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
     # behance:         <username>
     # deviantart:      <username>
     # ello:            <username>
-    # twitch:          <username>
-    # steam:           <number>
+    twitch:          stuartmorrisau
+    steam:           stuartmorrisau
     # reddit:          <username>
     # tumblr:          <username>
-    # pinterest:       <username>
+    pinterest:       stuartmorrisau
     # foursquare:      <number>
     # yelp:            <string>
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
-    # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    trello:          stuartmorrisau
+    linkedin:        stuartmorrisau
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
@@ -73,19 +85,19 @@ author1:
     # download:        <url>
 
 # Another author (optional)
-author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
-  picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
-  accent_color:      '#268bd2'
-  accent_image:
-    background:      '#202020'
-    overlay:         false
+# author2:
+#   name:              <firtname> <lastname>
+#   email:             <mail@domain.tld>
+#   about:             |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+#     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+#
+#     Open `_data/authors.yml` to edit this text.
+#   picture:           https://placehold.it/128x128
+#   twitter:           <username>
+#   github:            <username>
+#   accent_color:      '#268bd2'
+#   accent_image:
+#     background:      '#202020'
+#     overlay:         false

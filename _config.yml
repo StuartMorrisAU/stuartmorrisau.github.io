@@ -19,19 +19,21 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Stuart Morris — Portfolio
+title:                 Stuart Morris
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Automation Technician & Electrician. Co-founder of Silvobeat. Hiker.
+  Stuart Morris is an A-Class licensed electrician and automation controls technician from Melbourne, Australia.
+  He has experience in the installation and service of building management and control systems.
 
 # A shorter description for the sidebar.
-tagline:               >
+tagline:               |
   Automation Technician
   Electrician
   Co-founder of Silvobeat
   Hiker
+  Vegan
 
 # A list of keywords for your blog
 keywords:              [Stuart Morris, Automation, Building Automation, Delta Controls, Tridium, Niagara, Electrician, Hiker, Blogger, Silvobeat, Dual Ascent, Melbourne, Australia]
@@ -46,14 +48,7 @@ author:
   name:                Stuart Morris
   email:               stuart@stuartmorris.me
   # Used by `jekyll-seo-tag`:
-  facebook:            StuartMorrisAU
-  instagram:           StuartMorris_AU
-  spotify:             StuartMorrisAU
-  github:              StuartMorrisAU
-  basecamp:            StuartMorrisAU
-  wordpress:           StuartMorrisAU
   twitter:             StuartMorrisAU
-  google-plus:         StuartMorrisAU
 
 
 # This text will appear in a `<small>` tag in the footer of every page.
@@ -69,7 +64,7 @@ copyright:             >
 #     href:              /cookies-policy/
 
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
+permalink:             pretty # /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
@@ -81,7 +76,7 @@ paginate_path:         /page-:num/
 
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_color:          '#4fb1ba' # rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -148,7 +143,7 @@ defaults:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related]
+  post_addons:         [about, newsletter, related, random]
 
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other]
@@ -189,7 +184,7 @@ hydejack:
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      false
+  cookies_banner:      true
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   advertise:           false
@@ -246,6 +241,8 @@ exclude:
   - "*.gemspec"
   - _js
   - _plugins
+  - .eslintignore
+  - .eslintrc
   - .sass-cache
 include:
   - LICENSE.md
