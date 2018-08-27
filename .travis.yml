@@ -11,7 +11,7 @@ rvm:
 #   # Optional
 #
 
-# before_install:
+before_install:
   gem update --system
   gem --version
 
