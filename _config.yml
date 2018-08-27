@@ -16,7 +16,7 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  en_AU
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Stuart Morris
@@ -33,7 +33,7 @@ tagline:               >
 
   Electrician<br />
 
-  Co-Founder of Silvobeat<br />
+  Silvobeat Co-Founder<br />
 
   Hiker<br />
 
@@ -45,7 +45,7 @@ keywords:              [Stuart Morris, Automation, Building Automation, Delta Co
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/icons/icon.png
+logo:                  /assets/img/profile.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -101,7 +101,7 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 defaults:
   - scope:
-      path:            hyde
+      path:            about.md
     values:
       accent_color:    rgb(38,139,210)
       accent_image:
@@ -191,7 +191,7 @@ hydejack:
   cookies_banner:      true
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
-  advertise:           false
+  advertise:           true
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:

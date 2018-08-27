@@ -2,11 +2,11 @@
 layout: about
 menu: true
 order: 1
-image: /assets/img/suit.jpg
+<!-- image: /assets/img/suit-square.png -->
 ---
 
 # About
 
 <!--author-->
 
-![Stuart Morris](/assets/img/suit.jpg)
+![Stuart Morris](/assets/img/suit-square.png)

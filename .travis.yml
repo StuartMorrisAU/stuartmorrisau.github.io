@@ -1,0 +1,56 @@
+language: ruby
+rvm:
+ - 2.2
+
+
+# apt addons:
+#   # Optional
+#
+
+# cache components:
+#   # Optional
+#
+
+# before_install:
+  gem update --system
+  gem --version
+
+install:
+  bundler_args: --without development
+  bundle install
+
+# before_script:
+#
+
+# script:
+#
+
+# before_cache:
+#   # Optional
+#
+
+# after_success:
+#
+
+# after_failure:
+#
+
+# before_deploy:
+#   # Optional
+#
+
+deploy:
+  # Optional
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
+
+# after_deploy:
+#   # Optional
+#
+
+# after_script:
+#
