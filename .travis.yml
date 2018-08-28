@@ -14,8 +14,8 @@ rvm:
 bundler_args: --without development
 
 before_install:
-  gem update --system
-  gem --version
+  - gem update --system
+  - gem --version
 
 install:
   bundle install
