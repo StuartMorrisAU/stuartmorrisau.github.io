@@ -18,14 +18,13 @@ before_install:
   - travis_retry gem update --system
   - travis_retry gem --version
   - travis_retry gem install bundler
-  - ll ./.build
-  - ./.build/setup-hydejack.sh
 
 install:
   - travis_retry bundle install
 
-# before_script:
-#
+before_script:
+  - ll ./.build
+  - ./.build/setup-hydejack.sh
 
 # script:
 #
