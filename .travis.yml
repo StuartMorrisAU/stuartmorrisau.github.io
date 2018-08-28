@@ -21,10 +21,10 @@ before_install:
 
 install:
   - travis_retry bundle install
-
-before_script:
-  - ll ./.build
   - ./.build/setup-hydejack.sh
+
+# before_script:
+#
 
 # script:
 #

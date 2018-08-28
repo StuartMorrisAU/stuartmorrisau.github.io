@@ -12,7 +12,7 @@ group :development do
   gem "jekyll"
 end
 
-gem "jekyll-theme-hydejack-pro", git: 'git@hydejack:qwtel/hydejack-pro.git', branch: 'gem-pro'
+gem "jekyll-theme-hydejack-pro", git: 'git@github.com:qwtel/hydejack-pro.git', branch: 'gem-pro'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
