@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/StuartMorrisAU/stuartmorrisau.github.io.svg?branch=master)](https://travis-ci.com/StuartMorrisAU/stuartmorrisau.github.io)
+
 # Hydejack
 
 The "Best Jekyll Theme by a Mile".
